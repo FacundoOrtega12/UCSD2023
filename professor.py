@@ -27,13 +27,12 @@ def main():
                     break
                 else:
                     pass
-            if step == 3:
+            if attempt == 3:
                 print(f"{x} + {y} = {z}")
                 i += 1
             else:
                 pass
     print(f"Score: {score}")
-    sys.exit()
 
 
 def get_level():
