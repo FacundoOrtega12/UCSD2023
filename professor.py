@@ -2,6 +2,9 @@ import random
 import sys
 
 
+# HELLO
+
+
 def main():
     level = get_level()
     i = 0
