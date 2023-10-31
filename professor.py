@@ -50,15 +50,18 @@ def get_level():
 
 def generate_integer(level):
     if level == 1:
-        r = random.randrange(0, 9)
+        r = random.randint(0, 9)
         return r
     elif level == 2:
-        r = random.randrange(10, 99)
+        r = random.randint(10, 99)
         return r
     elif level == 3:
-        r = random.randrange(100, 999)
+        r = random.randint(100, 999)
         return r
 
 
 if __name__ == "__main__":
     main()
+
+
+
